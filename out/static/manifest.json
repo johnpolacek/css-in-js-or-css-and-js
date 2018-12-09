@@ -1,0 +1,15 @@
+{
+  "short_name": "CSS-in-JS or CSS and JS",
+  "name": "CSS-in-JS or CSS and JS",
+  "icons": [
+    {
+      "src": "./favicon.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "../index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

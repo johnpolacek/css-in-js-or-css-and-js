@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charSet="utf-8" />
+    <link rel="shortcut icon" href="../static/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="theme-color" content="#000000" />
+    <title>CSS-in-JS or CSS-and-JS</title>
+    <meta name="description" content="CSS-in-JS or CSS-and-JS - Can we all just get along?" />
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="and.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,400,700" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Hello there. I’m built with CSS and JS.</h1>
+        <p>Click the button to change the color</p>
+        <button id="changeColor">change color</button>
+      </header>
+      <aside class="box">
+        <h2>Articles and such*</h2>
+        <ul>
+            <li>
+              <article>
+                <h4>Reluctant Gatekeeping: The Problem With Full Stack</h4>
+                <span>by <a target="_blank" rel="author" href="http://www.heydonworks.com">Heydon Pickering</a></span>
+                <a target="_blank" href="http://www.heydonworks.com/article/reluctant-gatekeeping-the-problem-with-full-stack">read article</a>
+              </article>
+            </li>
+            <li>
+              <article>
+                <h4>What’s wrong with CSS-in-JS?</h4>
+                <span>by <a target="_blank" rel="author" href="http://bradfrost.com">Brad Frost</a></span>
+                <a target="_blank" href="http://bradfrost.com/blog/link/whats-wrong-with-css-in-js/">read article</a>
+              </article>
+            </li>
+            <li>
+              <article>
+                <h4>Overengineering CSS</h4>
+                <span>by <a target="_blank" rel="author" href="https://gomakethings.com/">Chris Ferdinandi</a></span>
+                <a target="_blank" href="https://gomakethings.com/overengineering-css/">read article</a>
+              </article>
+            </li>
+            <li>
+              <article>
+                <h4>Grid by Example</h4>
+                <span>by <a target="_blank" rel="author" href="https://rachelandrew.co.uk/">Rachel Andrew</a></span>
+                <a target="_blank" href="https://gridbyexample.com/">learn grid</a>
+              </article>
+            </li>
+            <li>
+              <article>
+                <h4>Layout Land</h4>
+                <span>by <a target="_blank" rel="author" href="https://labs.jensimmons.com/">Jen Simmons</a></span>
+                <a target="_blank" href="https://www.youtube.com/channel/UC7TizprGknbDalbHplROtag">watch vids</a>
+              </article>
+            </li>
+            <li>
+              <article>
+                <h4>Theming with CSS Variables</h4>
+                <span>by <a target="_blank" rel="author" href="http://natebaldw.in/">Nate Baldwin</a></span>
+                <a target="_blank" href="https://medium.com/@NateBaldwin/theming-with-css-variables-d7acddd3a699">read article</a>
+              </article>
+            </li>
+            <li>
+              <article>
+                <h4>CSS Variables: var(--subtitle);</h4>
+                <span>by <a target="_blank" rel="author" href="http://lea.verou.me/">Lea Verou</a></span>
+                <a target="_blank" href="https://www.youtube.com/watch?v=2an6-WVPuJU&list=PLUS3uVC08ZaqVEGFkl_dS_3FUzILkOIzA">watch talk</a>
+              </article>
+            </li>
+        </ul>
+        <p><small>*Being open to the opinions of others is important. Check out <a target="_blank" href="https://bobsutton.typepad.com/my_weblog/2006/07/strong_opinions.html">Strong Opinions, Weakly&nbsp;Held</a></small></p>
+        <p><small>Have an article suggestion? Send me a link on <a target="_blank" href="https://twitter.com/johnpolacek">Twitter</a> or issue a pull request.</small></p>
+      </aside>
+      <main class="box">
+        <h2>What’s the deal with CSS and CSS-in-JS?</h2>
+        <p>They can do a lot of the same things, but in different ways.</p>
+        <p>Many people like traditional CSS because it is well-established and more approachable with less configuration and&nbsp;dependencies.</p>
+        <p>At its simplest, you write content in html or with your templating system of choice.</p>
+        <figure class="box">
+          <figcaption>index.html</figcaption>
+          <pre class="box"><code>&lt;header&gt;
+  &lt;h1&gt;Hello there. I’m built with CSS and JS.&lt;/h1&gt;
+&lt;/header&gt;</code></pre>
+        </figure>
+        <p>To style content, write CSS in a stylesheet, usually in a separate file that gets loaded via a link tag in the head of your&nbsp;document.</p>
+        <figure class="box">
+          <figcaption>style.css</figcaption>
+          <pre class="box"><code>header { 
+  padding-top:32px; 
+  padding-bottom:32px;
+  text-align: center;
+}
+h1 { font-size: 20px; }
+@media screen and (min-width: 32em) {
+  h1 { font-size: 32px; }
+}</code></pre>
+        </figure>
+        <p>Some people think that if you are using React, that means you have to use CSS&#8209;in&#8209;JS. That’s not the case!</p>
+        <figure class="box">
+          <figcaption>Header.jsx</figcaption>
+          <pre class="box"><code>&lt;Header className="header"&gt;
+  &lt;h1&gt;You can still use classes with React.&lt;/h1&gt;
+&lt;/Header&gt;</code></pre>
+        </figure>
+        <p>It is possible you may not need any JavaScript at all. There’s a lot that can be done these days with new CSS features alone.</p>
+        <p>If you do need it, there are plenty of frameworks and tooling to help you import, require, prettify, minify, lint, code split, bundle, tree shake, transpile, compile and hot reload, but a script tag at the bottom of your page works just&nbsp;fine&nbsp;too.</p>
+        <figure class="box">
+          <figcaption>script.js</figcaption>
+          <pre class="box"><code>var colors = ['#00ADEF','#22AD00','#FF8C00','#ee5555','#484fd1'];
+var colorIndex = 0;
+
+document.getElementById('changeColor').addEventListener('click', function() {
+  colorIndex = (colorIndex+1) % colors.length;
+  document.documentElement.style.setProperty('--themeColor', colors[colorIndex]);
+});</code></pre>
+        </figure>
+        <p>Building web pages like this has worked for many years, and will continue to work for the foreseeable future. If you want to build websites this way, there’s nothing wrong with that and don’t let anyone&nbsp;stop&nbsp;you!</p>
+      </main>
+      <footer class="box">
+        <p>Created by John Polacek</p>
+        <section>
+          <a class="btn btn-dark" target="_blank" href="http://johnpolacek.com" >johnpolacek.com</a>
+          <a class="btn btn-dark" target="_blank" href="https://twitter.com/johnpolacek" >follow @johnpolacek</a>
+          <a class="btn btn-dark" target="_blank" href="https://github.com/johnpolacek" >github</a>
+          <a class="btn btn-dark" target="_blank" href="https://medium.com/@johnpolacek" >medium</a>
+        </section>
+      </footer>
+    </div>
+    <script>
+      var colors = ['#00ADEF','#22AD00','#FF8C00','#ee5555','#484fd1','#cd32cd','#7f32cd'];
+      var colorIndex = 0;
+
+      document.documentElement.style.setProperty('--themeColor', colors[Math.floor(Math.random()*colors.length)]);
+
+      document.getElementById('changeColor').addEventListener('click', function(e) {
+        colorIndex = (colorIndex+1) % colors.length;
+        document.documentElement.style.setProperty('--themeColor', colors[colorIndex]);
+      });
+    </script>
+  </body>
+</html>
+
+
+
+

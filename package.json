@@ -1,0 +1,22 @@
+{
+  "name": "css-and-js-or-css-in-js",
+  "version": "1.0.0",
+  "description": "Are CSS-in-JS and CSS-and-JS really all that different?",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "deploy": "next build && next export && git push origin master && rm -rf node_modules/.cache && ENV_GH_PAGES=true next build && ENV_GH_PAGES=true next export && touch out/.nojekyll && cp -R static/and out/static/and && git add out/ && git commit -m \"Deploy Next.js to gh-pages\" && git subtree push --prefix out origin gh-pages"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "babel-plugin-styled-components": "^1.9.2",
+    "next": "^7.0.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "styled-components": "^4.1.2",
+    "styled-system-html": "^2.0.4"
+  }
+}

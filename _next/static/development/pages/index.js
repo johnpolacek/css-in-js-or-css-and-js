@@ -14723,7 +14723,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _src_components_Button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/components/Button */ "./src/components/Button.js");
 /* harmony import */ var styled_system_html__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! styled-system-html */ "./node_modules/styled-system-html/dist/index.js");
 /* harmony import */ var styled_system_html__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(styled_system_html__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "/Users/johnpolacek/Sites/localhost-MAMP/test-css-and-js/pages/index.js";
+var _jsxFileName = "/Users/johnpolacek/Sites/localhost-MAMP/css-in-js-or-css-and-js/pages/index.js";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -14776,7 +14776,7 @@ function (_React$Component) {
       if (this.state.view == 'split') {
         return ['33vh', '40vh'];
       } else if (this.state.view == frame) {
-        return ['66vh', '80vh'];
+        return '80vh';
       } else {
         return 0;
       }
@@ -14874,7 +14874,7 @@ function (_React$Component) {
       }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(styled_system_html__WEBPACK_IMPORTED_MODULE_4__["Div"], {
         css: frameCSS,
         width: 1,
-        height: ['34vh', '20vh'],
+        height: this.state.view == 'split' ? ['34vh', '20vh'] : ['20vh', '20vh'],
         textAlign: "center",
         position: "relative",
         zIndex: "999",
@@ -14886,8 +14886,8 @@ function (_React$Component) {
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(styled_system_html__WEBPACK_IMPORTED_MODULE_4__["H1"], {
         px: 3,
-        pt: ['4vh', '2.5vh', '2.5vh', '4vh'],
-        fontSize: ['6vh', '6vh', '7vh', '8vh'],
+        pt: [this.state.view == 'split' ? '4vh' : '3vh', '2.5vh', '2.5vh', '4vh'],
+        fontSize: [this.state.view == 'split' ? '6vh' : '4vh', '6vh', '7vh', '8vh'],
         color: "blue",
         lineHeight: "1",
         __source: {
@@ -14905,7 +14905,7 @@ function (_React$Component) {
       }, "CSS-in-JS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(styled_system_html__WEBPACK_IMPORTED_MODULE_4__["Span"], {
         display: ['block', 'inline-block'],
         px: [0, 2, 3],
-        fontSize: ['4vh', '3vh', '4vh'],
+        fontSize: [this.state.view == 'split' ? '4vh' : '2vh', '3vh', '4vh'],
         position: "relative",
         top: [0, '-1.2vh', '-1.5vh'],
         __source: {
@@ -14922,7 +14922,7 @@ function (_React$Component) {
         __self: this
       }, "CSS-and-JS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(styled_system_html__WEBPACK_IMPORTED_MODULE_4__["H2"], {
         pt: ['1vh', 0],
-        fontSize: ['2.5vh', '2.5vh', '2.5vh', '3vh'],
+        fontSize: this.state.view == 'split' ? ['2.5vh', '2.5vh', '2.5vh', '3vh'] : '2vh',
         fontWeight: [400, 400, 400, 200],
         color: "gray9",
         __source: {
@@ -14931,6 +14931,7 @@ function (_React$Component) {
         },
         __self: this
       }, "( Can we all just get along? )"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_components_Button__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        display: this.state.view == 'split' ? 'inline-block' : ['none', 'inline-block'],
         fontSize: 0,
         is: "a",
         bg: "rgba(0,0,0,.33)",
@@ -15055,7 +15056,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_system_html__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(styled_system_html__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _static_styles_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../static/styles.css */ "./static/styles.css");
 /* harmony import */ var _static_styles_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_static_styles_css__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "/Users/johnpolacek/Sites/localhost-MAMP/test-css-and-js/src/components/Body.js";
+var _jsxFileName = "/Users/johnpolacek/Sites/localhost-MAMP/css-in-js-or-css-and-js/src/components/Body.js";
 
 
 
@@ -15087,7 +15088,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_system_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-system-html */ "./node_modules/styled-system-html/dist/index.js");
 /* harmony import */ var styled_system_html__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_system_html__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/johnpolacek/Sites/localhost-MAMP/test-css-and-js/src/components/Button.js";
+var _jsxFileName = "/Users/johnpolacek/Sites/localhost-MAMP/css-in-js-or-css-and-js/src/components/Button.js";
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
@@ -15159,7 +15160,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/johnpolacek/Sites/localhost-MAMP/test-css-and-js/src/components/Head.js";
+var _jsxFileName = "/Users/johnpolacek/Sites/localhost-MAMP/css-in-js-or-css-and-js/src/components/Head.js";
 
 
 
@@ -15179,7 +15180,7 @@ var _jsxFileName = "/Users/johnpolacek/Sites/localhost-MAMP/test-css-and-js/src/
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
     rel: "shortcut icon",
-    href: "/static/favicon.png",
+    href: "./static/favicon.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7

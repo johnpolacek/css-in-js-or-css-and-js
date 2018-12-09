@@ -14731,7 +14731,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_system_html__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(styled_system_html__WEBPACK_IMPORTED_MODULE_10__);
 /* harmony import */ var _src_components_Snippets__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../src/components/Snippets */ "./src/components/Snippets.js");
 /* harmony import */ var _src_components_Theme__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../src/components/Theme */ "./src/components/Theme.js");
-var _jsxFileName = "/Users/johnpolacek/Sites/localhost-MAMP/test-css-and-js/pages/in.js";
+var _jsxFileName = "/Users/johnpolacek/Sites/localhost-MAMP/css-in-js-or-css-and-js/pages/in.js";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -15247,7 +15247,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_system_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-system-html */ "./node_modules/styled-system-html/dist/index.js");
 /* harmony import */ var styled_system_html__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_system_html__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/johnpolacek/Sites/localhost-MAMP/test-css-and-js/src/components/A.js";
+var _jsxFileName = "/Users/johnpolacek/Sites/localhost-MAMP/css-in-js-or-css-and-js/src/components/A.js";
 
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -15291,7 +15291,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_system_html__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(styled_system_html__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _static_styles_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../static/styles.css */ "./static/styles.css");
 /* harmony import */ var _static_styles_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_static_styles_css__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "/Users/johnpolacek/Sites/localhost-MAMP/test-css-and-js/src/components/Body.js";
+var _jsxFileName = "/Users/johnpolacek/Sites/localhost-MAMP/css-in-js-or-css-and-js/src/components/Body.js";
 
 
 
@@ -15323,7 +15323,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_system_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-system-html */ "./node_modules/styled-system-html/dist/index.js");
 /* harmony import */ var styled_system_html__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_system_html__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/johnpolacek/Sites/localhost-MAMP/test-css-and-js/src/components/Box.js";
+var _jsxFileName = "/Users/johnpolacek/Sites/localhost-MAMP/css-in-js-or-css-and-js/src/components/Box.js";
 
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -15357,7 +15357,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_system_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-system-html */ "./node_modules/styled-system-html/dist/index.js");
 /* harmony import */ var styled_system_html__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_system_html__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/johnpolacek/Sites/localhost-MAMP/test-css-and-js/src/components/Button.js";
+var _jsxFileName = "/Users/johnpolacek/Sites/localhost-MAMP/css-in-js-or-css-and-js/src/components/Button.js";
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
@@ -15428,7 +15428,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_system_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-system-html */ "./node_modules/styled-system-html/dist/index.js");
 /* harmony import */ var styled_system_html__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_system_html__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Box__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Box */ "./src/components/Box.js");
-var _jsxFileName = "/Users/johnpolacek/Sites/localhost-MAMP/test-css-and-js/src/components/CodeBlock.js";
+var _jsxFileName = "/Users/johnpolacek/Sites/localhost-MAMP/css-in-js-or-css-and-js/src/components/CodeBlock.js";
 
 
 
@@ -15490,7 +15490,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/johnpolacek/Sites/localhost-MAMP/test-css-and-js/src/components/Head.js";
+var _jsxFileName = "/Users/johnpolacek/Sites/localhost-MAMP/css-in-js-or-css-and-js/src/components/Head.js";
 
 
 
@@ -15510,7 +15510,7 @@ var _jsxFileName = "/Users/johnpolacek/Sites/localhost-MAMP/test-css-and-js/src/
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
     rel: "shortcut icon",
-    href: "/static/favicon.png",
+    href: "./static/favicon.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
@@ -15644,7 +15644,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_system_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-system-html */ "./node_modules/styled-system-html/dist/index.js");
 /* harmony import */ var styled_system_html__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_system_html__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/johnpolacek/Sites/localhost-MAMP/test-css-and-js/src/components/P.js";
+var _jsxFileName = "/Users/johnpolacek/Sites/localhost-MAMP/css-in-js-or-css-and-js/src/components/P.js";
 
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -15680,7 +15680,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_system_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-system-html */ "./node_modules/styled-system-html/dist/index.js");
 /* harmony import */ var styled_system_html__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_system_html__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _A__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./A */ "./src/components/A.js");
-var _jsxFileName = "/Users/johnpolacek/Sites/localhost-MAMP/test-css-and-js/src/components/SidebarLink.js";
+var _jsxFileName = "/Users/johnpolacek/Sites/localhost-MAMP/css-in-js-or-css-and-js/src/components/SidebarLink.js";
 
 
 
@@ -15868,7 +15868,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-var _jsxFileName = "/Users/johnpolacek/Sites/localhost-MAMP/test-css-and-js/src/components/Wrapper.js";
+var _jsxFileName = "/Users/johnpolacek/Sites/localhost-MAMP/css-in-js-or-css-and-js/src/components/Wrapper.js";
 
 
 function _templateObject() {

@@ -4,4 +4,4 @@ I have been around awhile. I love HTML, CSS, JavaScript, SASS, React, Vanilla JS
 
 It is all good. Building stuff is especially all good. You will never be happy with the stuff you built. This is fine and normal. Build the next thing.
 
-So, take a look at the source for this project. It is awesome and it sucks. Maybe you can learn something from it? That would be awesome. That’s why I did it. You can do something better probably. Please do.
+So, take a look at the source for this project. It is awesome and it sucks. Maybe you can learn something from it? That would be great. That’s why I did it. You can do something better probably. Please do.

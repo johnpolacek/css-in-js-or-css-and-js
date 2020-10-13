@@ -13,7 +13,7 @@
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "babel-plugin-styled-components": "^1.9.2",
-    "next": "^7.0.2",
+    "next": "^9.5.5",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "styled-components": "^4.1.2",
